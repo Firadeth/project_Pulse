@@ -1,0 +1,33 @@
+.reviews {
+    padding-bottom: 71px;
+    .title {
+        margin-bottom: 20px;
+    }
+    hr {
+        margin-top: 50px;
+    }
+    &__customer {
+        margin-top: 50px;
+        display: flex;
+    }
+    img {
+        margin-right: 60px;
+        height: 169px;
+        width: 169px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__marathon {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &__text {
+        margin-top: 19px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+}
